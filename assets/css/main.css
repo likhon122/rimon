@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
 .radial-progress-container {
   position: relative;
 }
@@ -16,33 +17,33 @@
   justify-content: center;
 }
 
-@font-face {
+/* @font-face {
   font-family: rajdhani;
   font-style: normal;
   font-weight: 400;
-  src: local("Rajdhani"), url("./assets/fonts/Rajdhani-Regular.ttf") format("ttf");
+  src:url("../fonts/Rajdhani-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-family: rajdhani;
   font-style: normal;
   font-weight: 500;
-  src: local("Rajdhani"), url("./assets/fonts/Rajdhani-Medium.ttf") format("ttf");
+  src: url("../fonts/Rajdhani-Medium.ttf") format("ttf");
 }
 
 @font-face {
   font-family: rajdhani;
   font-style: normal;
   font-weight: 600;
-  src: local("Rajdhani"), url("./assets/fonts/Rajdhani-SemiBold.ttf") format("ttf");
+  src: url("../fonts/Rajdhani-SemiBold.ttf") format("ttf");
 }
 
 @font-face {
   font-family: rajdhani;
   font-style: normal;
   font-weight: 700;
-  src: local("Rajdhani"), url("./assets/fonts/Rajdhani-Bold.ttf") format("ttf");
-}
+  src: url("../fonts/Rajdhani-Bold.ttf") format("ttf");
+} */
 
 * {
   padding: 0;
@@ -79,6 +80,7 @@ button {
 
 body {
   background: #1f232f;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .content-modal {
